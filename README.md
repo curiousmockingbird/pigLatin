@@ -24,12 +24,12 @@ Expected Output: word + "way"
 
 
 
-let retval =[]
-for(let i = 0; i <= vowel.length; i+=1){
-  if (word.includes(vowel[i])){
-    let newWord = word.concat("way");
-      retval.push(newWord);
-      
-  } //Else: do nothing -- continue to next index 
+ let retVal = [];
+    let wordToArray = word.split('');
+    for(let i = 0; i <=vowel.length; i += 1) {
+        if (wordToArray[0] === vowel[i]) {
+            let addWay = word.concat("way");
+            retVal.push(addWay);
+    }
 };
   
