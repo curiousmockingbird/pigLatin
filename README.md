@@ -33,3 +33,74 @@ Expected Output: word + "way"
     }
 };
   
+function pigLatin(word) {
+let wordToArray = word.split('');
+    for(let i = 0; i <=vowel.length; i += 1) {
+        if (wordToArray[0] === vowel[i]) {
+           let retVal = word + "way";
+    }
+}
+    let retValToString = retval.toString();
+    return retValToString;
+};
+
+// Final tryouts
+
+1)
+
+function pigLatin(word) {
+let wordToArray = word.split('');
+    for(let i = 0; i <=vowel.length; i += 1) {
+        if (wordToArray[0] === vowel[i]) {
+           let retVal = word + "way";
+    }
+}
+    let retValToString = retVal.toString();
+    return retValToString;
+};
+
+pigLatin(word);
+
+doesn't work!
+
+2)
+
+function pigLatin(word) {
+let retVal;
+let wordToArray = word.split('');
+    for(let i = 0; i <=vowel.length; i += 1) {
+        if (wordToArray[0] === vowel[i]) {
+           let retVal = word + "way";
+    }
+}
+    let retValToString = retVal.toString();
+    return retValToString;
+};
+
+pigLatin(word);
+
+doesn't work!
+
+3) 
+it works
+
+function pigLatin(word) {
+let retVal;
+let wordToArray = word.split('');
+    for(let i = 0; i <=vowel.length; i += 1) {
+        if (wordToArray[0] === vowel[i]) {
+            retVal = word + "way";
+    }
+}
+    let retValToString = retVal.toString();
+    return retValToString;
+};
+
+pigLatin(word);
+
+it works!
+
+
+
+
+
